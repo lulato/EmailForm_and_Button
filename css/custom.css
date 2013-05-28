@@ -1,0 +1,52 @@
+/*! normalize.css v2.1.1 | MIT License | git.io/normalize */
+
+/* ==========================================================================
+   CUSTOM
+   ========================================================================== */
+
+/**
+ * buttons
+ */
+
+button, .button {
+border-style: solid;
+border-width: 1px;
+cursor: pointer;
+font-family: inherit;
+font-weight: bold;
+line-height: 1;
+margin: 0 0 1.25em;
+position: relative;
+text-decoration: none;
+text-align: center;
+display: inline-block;
+padding-top: 0.75em;
+padding-right: 1.5em;
+padding-bottom: 0.8125em;
+padding-left: 1.5em;
+font-size: 1em;
+background-color: #2ba6cb;
+border-color: #2284a1;
+color: white;
+}
+
+button.transparent, .button.transparent {
+	color: rgb(255, 255, 255);
+    background: none repeat scroll 0% 0% transparent;
+	border: 3px solid rgba(255, 255, 255, 0.3);
+    color: white;
+}
+
+.ontop {
+    bottom: 4px;
+    left: 50%;
+	margin-top: -150px;
+    margin-left: -162px;
+    overflow: hidden;
+    position: absolute;
+    width: 328px;
+}
+
+.bg {
+	position:relative;
+}
